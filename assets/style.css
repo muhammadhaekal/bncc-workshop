@@ -37,3 +37,16 @@ body {
 .card div {
   padding: 20px;
 }
+
+
+hr {
+  margin: 65px;
+}
+
+footer {
+  padding: 30px;
+}
+
+footer a {
+  margin: 0 20px;
+}
