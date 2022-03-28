@@ -2,10 +2,15 @@
  * Start of script file
  */
 window.addEventListener('load', function() {
-  document.getElementById('modal').style.display = 'block';
-  document.getElementById('title').innerHTML = 'Hello World!';
-  document.getElementById('detail').innerHTML = 'Welcome to My Personal Website';
-  document.getElementById('description').innerHTML = 'Here you can see my latest project and portfolio';
+  if (window.localStorage.getItem('onboarded') != 1) {
+    document.getElementById('modal').style.display = 'block';
+    document.getElementById('title').innerHTML = 'Hello World!';
+    document.getElementById('detail').innerHTML = 'Welcome to My Personal Website';
+    document.getElementById('description').innerHTML = 'Here you can see my latest project and portfolio';
+    window.localStorage.setItem('onboarded', 1);
+  } else {
+    console.log('not show modal');
+  }
 });
 
 function handleClose() {
