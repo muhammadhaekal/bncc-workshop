@@ -29,6 +29,11 @@ body {
   width: 30%;
   border: 1px solid #ddd;
   cursor: pointer;
+  transition: ease-in-out 300ms;
+}
+
+.card:hover {
+  background-color: #efefef;
 }
 
 .card img {
