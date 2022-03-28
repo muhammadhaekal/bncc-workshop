@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.5; /* Optional */
+  text-align: center;
+}
+
+#profile {
+  padding: 65px;
+  background-color: lightgrey;
+}
+
+#profile img {
+  height: 350px;
+  border-radius: 50%;
+}
+
+#content {
+  width: 55%;
+  margin: 0 auto;
+}
