@@ -19,3 +19,21 @@ body {
   width: 55%;
   margin: 0 auto;
 }
+
+#skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid #ddd;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card div {
+  padding: 20px;
+}
